@@ -11,7 +11,7 @@ AUTHOR_EMAIL = "chenjiandongx@qq.com"
 LICENSE = "MIT"
 REQUIRES = ["black", "glob2", "delegator.py"]
 MODULES = ["pink"]
-DESC = "reformatted code via the command line"
+DESC = "reformatted code via the command line."
 
 
 setup(
