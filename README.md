@@ -2,22 +2,25 @@
 
 > Pink: [White](https://github.com/kennethreitz/white), but smarter
 
-pink 是一个代码格式化工具，来自 [White](https://github.com/kennethreitz/white)
+pink 是一个代码格式化工具，来自 [White](https://github.com/kennethreitz/white)，支持格式化整个文件夹代码。
 
-### Feature
 
-支持格式化整个文件夹代码
-
-### Install
+### 安装
 
 ``` shell
 $ pip install pink
 ```
 
-### Usage
+### 用法
 
 ``` shell
-$ pink code/*.py
+$ pink {source_file/source_dir}
+
+# 格式化文件
+# pink code.py
+
+# 格式化文件夹
+# pink code/*.py
 ```
 
 ### LICENSE

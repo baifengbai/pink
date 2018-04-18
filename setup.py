@@ -16,7 +16,7 @@ DESC = "reformatted code via the command line."
 
 setup(
     author=AUTHOR,
-    author_email=AUTHOR,
+    author_email=AUTHOR_EMAIL,
     name=NAME,
     version=VERSION,
     license=LICENSE,
