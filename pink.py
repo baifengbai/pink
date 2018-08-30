@@ -17,13 +17,14 @@ def command_line_runner():
     python = sys.executable
     black_exec = black.__file__.rstrip("cdo")
 
-    path = " ".join(sys.argv[1:])
+    path = sys.argv[1:]
     for p in path:
         for file in glob2.glob(p):
-            res = os.popen(
+            print(file)
+            os.popen(
                 f"{python} {black_exec} {file} --line-length {PEP8_MAXLINE}"
             ).read()
-            print(res)
+            print()
     sys.exit()
 
 
