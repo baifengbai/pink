@@ -1,4 +1,6 @@
-# pink [![PyPI version](https://badge.fury.io/py/pink.svg)](https://badge.fury.io/py/pink) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+# pink
+
+[![PyPI version](https://badge.fury.io/py/pink.svg)](https://badge.fury.io/py/pink) [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 > Pink: [White](https://github.com/kennethreitz/white), but smarter
 
