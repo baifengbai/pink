@@ -3,13 +3,19 @@
 
 from setuptools import setup
 
+# RELEASE STEPS
+# $ python setup.py bdist_wheel
+# $ python twine upload dist/VX.Y.Z.whl
+# $ git tag -a VX.Y.Z -m "release version VX.Y.Z"
+# $ git push origin VX.Y.Z
+
 NAME = "pink"
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 URL = "https://github.com/chenjiandongx/pink"
 AUTHOR = "chenjiandongx"
 AUTHOR_EMAIL = "chenjiandongx@qq.com"
 LICENSE = "MIT"
-REQUIRES = ["black", "glob2", "delegator.py"]
+REQUIRES = ["black", "glob2"]
 MODULES = ["pink"]
 DESC = "reformatted code via the command line."
 

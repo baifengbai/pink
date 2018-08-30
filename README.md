@@ -19,8 +19,11 @@ $ pink {source_file/source_dir}
 # 格式化文件
 # pink code.py
 
-# 格式化文件夹
+# 格式化单文件夹
 # pink code/*.py
+
+# 格式化多文件夹
+# pink code/*.py test/*.py
 ```
 
 ### LICENSE
